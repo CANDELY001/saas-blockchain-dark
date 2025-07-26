@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased bg-zinc-900 text-zinc-300 font-body;
+  }
+  input,
+  textarea {
+    @apply bg-transparent border-0 outline-none text-white;
+  }
+}
